@@ -1,0 +1,8 @@
+[package]
+name = "factorio-mods-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ureq = {version = "3.0.10", features = ["json"]}
+zip = "2.6.1"
